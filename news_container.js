@@ -28,14 +28,14 @@ const displayNews = categories => {
                 <img src="${category.author.img}" class="img-thumbnail rounded-circle border-0" width="60" height="24">${category.author.name}
             </div> 
             <p>
-                <img src="images/viewIcon.png" class="img-thumbnail rounded-circle border-0" width="60" height="24">
+                <img src="viewIcon.png" class="img-thumbnail rounded-circle border-0" width="60" height="24">
                 ${category.total_view}
             </p>
             <div class="d-flex align-items-center">Rating:${category.rating.number} ${category.rating.badge}</div>
 
             
             <p> 
-                <img src="images/arrow.png" class="img-thumbnail rounded-circle border-0" width="60" height="24">
+                <img src="arrow.png" class="img-thumbnail rounded-circle border-0" width="60" height="24">
             </p>
         </div>
     </div>
